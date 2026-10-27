@@ -1,0 +1,16 @@
+{
+  "name": "eventify",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eventify – Modern Full-Stack Event Management Platform",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "keywords": ["eventify", "events", "ticketing", "qr-verification", "management"],
+  "author": "Eventify Team",
+  "license": "MIT"
+}
+
